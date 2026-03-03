@@ -14,7 +14,7 @@ logging.basicConfig(
 BOT_TOKEN = "7750901927:AAHh-0lcH77bHvblFgIrs_W6-7WDk-U4EO8"
 
 # Путь к папке с карточками
-CARDS_FOLDER = "card"
+CARDS_FOLDER = "rfhnjxb/card"
 
 def get_card_files():
     """Получает список всех картинок в папке"""
@@ -32,7 +32,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
         cards = get_card_files()
         
         if not cards:
-            await update.message.reply_text("😕 Карточки закончились!")
+            await update.message.reply_text("пошел нахуй!")
             return
         
         # Выбираем случайную карточку
@@ -60,3 +60,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
