@@ -14,7 +14,7 @@ logging.basicConfig(
 BOT_TOKEN = "7750901927:AAHh-0lcH77bHvblFgIrs_W6-7WDk-U4EO8"
 
 # Путь к папке с карточками
-CARDS_FOLDER = "rfhnjxb/cards"
+CARDS_FOLDER = "cards"
 
 def get_card_files():
     """Получает список всех картинок в папке"""
@@ -60,5 +60,6 @@ def main():
 if __name__ == "__main__":
 
     main()
+
 
 
